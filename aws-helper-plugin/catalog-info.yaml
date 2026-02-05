@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-helper-plugin
+  title: AWS Helper Claude Plugin
+  description: AWS operations helper with built-in safety checks, environment detection, and best practices enforcement for safe infrastructure management
+  annotations:
+    github.com/project-slug: nilo-praxent/praxent-skills
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - claude-plugin
+    - aws
+    - infrastructure
+    - safety
+    - devops
+  links:
+    - url: https://code.claude.com/docs/en/plugins
+      title: Claude Code Plugin Documentation
+      icon: docs
+    - url: https://aws.amazon.com/cli/
+      title: AWS CLI Documentation
+      icon: cloud
+spec:
+  type: library
+  lifecycle: production
+  owner: praxent-developers
+  system: praxent-skills
+  dependsOn:
+    - resource:aws-cli

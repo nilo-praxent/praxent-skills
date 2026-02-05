@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: code-review-plugin
+  title: Code Review Claude Plugin
+  description: Automated code review plugin for Claude Code that checks for best practices, security issues, and code quality
+  annotations:
+    github.com/project-slug: nilo-praxent/praxent-skills
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - claude-plugin
+    - code-review
+    - security
+    - quality-assurance
+  links:
+    - url: https://code.claude.com/docs/en/plugins
+      title: Claude Code Plugin Documentation
+      icon: docs
+spec:
+  type: library
+  lifecycle: production
+  owner: praxent-developers
+  system: praxent-skills

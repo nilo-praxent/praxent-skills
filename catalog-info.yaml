@@ -1,10 +1,23 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: System
 metadata:
   name: praxent-skills
+  title: Praxent Claude Skills
+  description: Collection of Claude Code plugins and skills for development workflows at Praxent
   annotations:
     github.com/project-slug: nilo-praxent/praxent-skills
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - claude-code
+    - plugins
+    - development-tools
+  links:
+    - url: https://code.claude.com/docs/en/plugins
+      title: Claude Code Plugin Documentation
+      icon: docs
+    - url: https://github.com/nilo-praxent/praxent-skills
+      title: GitHub Repository
+      icon: github
 spec:
-  type: other
-  lifecycle: unknown
   owner: praxent-developers
+  domain: developer-experience

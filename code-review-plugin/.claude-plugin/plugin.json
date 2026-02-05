@@ -1,0 +1,15 @@
+{
+  "name": "code-review",
+  "description": "Automated code review plugin that checks for best practices, security issues, and code quality",
+  "version": "1.0.0",
+  "author": {
+    "name": "Praxent",
+    "email": "developers@praxent.com"
+  },
+  "homepage": "https://github.com/nilo-praxent/praxent-skills/tree/main/code-review-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nilo-praxent/praxent-skills.git"
+  },
+  "license": "MIT"
+}
