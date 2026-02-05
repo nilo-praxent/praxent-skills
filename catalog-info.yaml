@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: praxent-skills
+  annotations:
+    github.com/project-slug: nilo-praxent/praxent-skills
+spec:
+  type: other
+  lifecycle: unknown
+  owner: praxent-developers
